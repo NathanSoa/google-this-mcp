@@ -1,0 +1,26 @@
+{
+  "name": "research-mcp",
+  "version": "1.0.0",
+  "description": "my-research-mcp",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/node": "^24.0.1",
+    "pino-pretty": "^13.0.0",
+    "shx": "^0.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.2",
+    "dotenv": "^16.5.0",
+    "googleapis": "^150.0.1",
+    "pino": "^9.7.0",
+    "zod": "^3.25.64"
+  }
+}
